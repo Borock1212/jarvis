@@ -1,0 +1,1 @@
+openaigoogle-cloud-visionpillowpyttsx3SpeechRecognitionpytesseractpyautoguirequeststtkbootstrap
