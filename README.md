@@ -1,22 +1,22 @@
-Jarvis — AI Personal Assistant with Vision and Voice
+## Jarvis — AI Personal Assistant with Vision and Voice
 This project, Jarvis, is an advanced AI-powered personal assistant designed to interact via text, voice, and images. It integrates OpenAI GPT, Google Vision API, OCR, and web search to provide a seamless, intelligent user experience.
 
 Note: This project was developed with assistance from ChatGPT, an AI language model by OpenAI.
 
-Features
-  Text and voice commands for natural interaction.
+## Features
+ - Text and voice commands for natural interaction.
   
-  Image and screen analysis for logo detection and text recognition.
+ - Image and screen analysis for logo detection and text recognition.
   
-  Smart web search integration.
+ - Smart web search integration.
   
-  Task automation: open websites, manage reminders, launch applications.
+ - Task automation: open websites, manage reminders, launch applications.
   
-  Asynchronous processing for smooth GUI performance.
+ - Asynchronous processing for smooth GUI performance.
   
-  Dark-themed interface built with Tkinter and ttkbootstrap.
+ - Dark-themed interface built with Tkinter and ttkbootstrap.
 
-Installation
+## Installation
   Clone the repository:
   ```
   git clone https://github.com/Borock1212/jarvis.git
@@ -33,7 +33,7 @@ Installation
   Set up your .env file with required API keys and credentials.
 
 
-Usage
+## Usage
   Run the application:
   ```
   python main.py
@@ -41,20 +41,20 @@ Usage
 
   Use the input box or voice commands to interact with Jarvis. Insert images or take screenshots to analyze logos and text.
 
-Requirements
-  Python 3.8+
+## Requirements
+ - Python 3.8+
   
-  OpenAI API key
+ - OpenAI API key
   
-  Google Cloud Vision API service account key
+ - Google Cloud Vision API service account key
   
-  Serper API key (for web search)
+ - Serper API key (for web search)
   
-  Tesseract OCR installed and configured
+ - Tesseract OCR installed and configured
 
-Contributing
+## Contributing
   Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-License
+## License
   This project is licensed under the MIT License.
 
