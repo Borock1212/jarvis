@@ -126,7 +126,7 @@ def run_jarvis_gui():
     frame = ttk.Frame(window)
     frame.pack(pady=5)
 
-    submit_btn = ttk.Button(frame, text="Выполнить", command=on_submit)
+    submit_btn = ttk.Button(frame, text="Submit", command=on_submit)
     submit_btn.pack(side=LEFT, padx=10)
 
     voice_btn = ttk.Button(frame, text="Voice", command=on_voice)
