@@ -118,7 +118,7 @@ def run_jarvis_gui():
     def on_voice():
         def process_voice():
             command = get_voice_command(output_box)
-            output_box.insert(tk.END, f"> (Голос): {command}\n")
+            output_box.insert(tk.END, f"> (Voice): {command}\n")
             response = execute_command(command)
             output_box.insert(tk.END, response + "\n\n")
         threading.Thread(target=process_voice).start()
